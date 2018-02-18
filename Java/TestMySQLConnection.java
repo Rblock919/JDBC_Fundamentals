@@ -5,9 +5,9 @@ import java.sql.SQLException;
 public class TestMySQLConnection {
 
 
-    static String username = "dev";
-    static String password = "dev";
-    static String dbUrl = "jdbc:mysql://localhost:3306/cliTest";
+    static String username = ""; //INSERT MySQL USERNAME
+    static String password = ""; //INSERT MySQL PASSWORD
+    static String dbUrl = "jdbc:mysql://localhost:3306/";
     public static void main(String[] args) throws SQLException {
 
         Connection conn = null;
