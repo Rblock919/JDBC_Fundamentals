@@ -1,0 +1,16 @@
+use cliTest;
+
+DROP TABLE IF EXISTS PSBANK;
+
+CREATE TABLE PSBANK (
+	ACNO int NOT NULL,
+	AMOUNT float(10,2)
+);
+
+INSERT INTO PSBANK VALUES (200, 9400),
+			  (201, 6550),
+			  (202, 22950),
+			  (203, 12734),
+			  (204, 15000),
+			  (205, 17008),
+			  (206, 13300);
